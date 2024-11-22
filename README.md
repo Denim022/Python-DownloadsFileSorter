@@ -37,25 +37,6 @@ You can modify the EXTENSION_MAP dictionary in the script to include or remove f
 ```
 The script will scan the folder and sort files into categorized subfolders.
 
-**Example Output:**
-After running the script, the specified folder will look like this:
-
-Specified_Folder/
-│
-├── Images/
-│   ├── photo1.jpg
-│   ├── screenshot.png
-│
-├── Documents/
-│   ├── report.pdf
-│   ├── notes.txt
-│
-├── Videos/
-│   ├── movie.mp4
-│
-├── Others/
-│   ├── unknown_file.xyz
-
 **Scheduling the Script (Optional):**
 
 1. Windows (Task Scheduler)
