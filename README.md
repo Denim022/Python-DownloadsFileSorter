@@ -8,7 +8,7 @@ Moves files into their respective folders based on file extensions.
 Customizable extension-to-folder mapping.
 
 **Prerequisites:**
-Python Installation
+Python Installation:
 Ensure you have Python installed on your system. Download it from python.org.
 
 **Dependencies:**
@@ -48,4 +48,4 @@ Open Task Scheduler and create a new task.
 ```
 python path\to\sort_files.py
 ```
-#Enjoy a cleaner and more organized folder!
+**Enjoy a cleaner and more organized folder!**
