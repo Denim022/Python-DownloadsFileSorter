@@ -1,2 +1,69 @@
-# Python-FileSorter
-This is a Python file sorter which can help you organize your files by just one command in the VS Code Terminal!
+#Automatic Folder Sorter
+This Python script organizes files in a user-specified folder into categorized subfolders based on file types (e.g., Images, Documents, Videos). It allows users to input the directory they wish to sort at runtime.
+
+#Features
+Prompts the user to specify the folder to sort.
+Automatically creates folders for file categories (e.g., Images, Documents, Videos).
+Moves files into their respective folders based on file extensions.
+Customizable extension-to-folder mapping.
+Prerequisites
+Python Installation
+Ensure you have Python installed on your system. Download it from python.org.
+
+#Dependencies
+This script does not require any external libraries. It uses Python’s built-in libraries (os, shutil).
+
+#Setup
+Clone or Create the Script
+Save the script as sort_files.py.
+
+#Customize File Categories (Optional)
+Modify the EXTENSION_MAP dictionary in the script to include or remove file types as needed.
+
+#How to Run
+1. Open a terminal (Command Prompt or Visual Studio Code terminal).
+2. Navigate to the directory where the code file is saved
+```   
+  cd path\to\script\directory
+```
+3. Run the script:
+```
+   python sort_files.py
+```
+4. Enter the path to the folder you want to sort when prompted:
+```
+   Enter the path to the folder you want to sort: C:\Users\YourUsername\Downloads
+```
+The script will scan the folder and sort files into categorized subfolders.
+
+#Example Output
+After running the script, the specified folder will look like this:
+
+Specified_Folder/
+│
+├── Images/
+│   ├── photo1.jpg
+│   ├── screenshot.png
+│
+├── Documents/
+│   ├── report.pdf
+│   ├── notes.txt
+│
+├── Videos/
+│   ├── movie.mp4
+│
+├── Others/
+│   ├── unknown_file.xyz
+
+#Scheduling the Script (Optional)
+
+1. Windows (Task Scheduler)
+You can schedule the script to run automatically:
+
+Open Task Scheduler and create a new task.
+ i. Set the Trigger (e.g., daily at a specific time).
+ ii. Set the Action to run Python with the script:
+```
+python path\to\sort_files.py
+```
+#Enjoy a cleaner and more organized folder!
