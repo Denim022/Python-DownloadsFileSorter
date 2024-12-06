@@ -1,27 +1,27 @@
 # Automatic Folder Sorter:
 This Python script organizes files in a user-specified folder into categorized subfolders based on file types (e.g., Images, Documents, Videos). It allows users to input the directory they wish to sort at runtime.
 
-**Features:**
+# Features:
 Prompts the user to specify the folder to sort.
 Automatically creates folders for file categories (e.g., Images, Documents, Videos).
 Moves files into their respective folders based on file extensions.
 Customizable extension-to-folder mapping.
 
-**Prerequisites:**
+# Prerequisites:
 Python Installation:
 Ensure you have Python installed on your system. Download it from python.org.
 
-**Dependencies:**
+# Dependencies:
 This script does not require any external libraries. It uses Python’s built-in libraries (os, shutil).
 
-**Setup:**
+# Setup:
 Clone or Create the Script
 Save the script as sort_files.py.
 
-**Customize File Categories (Optional):**
+# Customize File Categories (Optional):
 You can modify the EXTENSION_MAP dictionary in the script to include or remove file types as needed.
 
-**How to Run:**
+# How to Run:
 1. Open a terminal (Command Prompt or Visual Studio Code terminal).
 2. Navigate to the directory where the code file is saved
 ```   
@@ -37,7 +37,7 @@ You can modify the EXTENSION_MAP dictionary in the script to include or remove f
 ```
 The script will scan the folder and sort files into categorized subfolders.
 
-**Scheduling the Script (Optional):**
+# Scheduling the Script (Optional):
 
 1. Windows (Task Scheduler)
 You can schedule the script to run automatically:
