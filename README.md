@@ -48,4 +48,4 @@ Open Task Scheduler and create a new task.
 ```
 python path\to\sort_files.py
 ```
-**Enjoy a cleaner and more organized folder!**
+# Enjoy a cleaner and more organized folder!
