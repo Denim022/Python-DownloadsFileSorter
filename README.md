@@ -1,4 +1,4 @@
-**Automatic Folder Sorter:**
+# Automatic Folder Sorter:
 This Python script organizes files in a user-specified folder into categorized subfolders based on file types (e.g., Images, Documents, Videos). It allows users to input the directory they wish to sort at runtime.
 
 **Features:**
