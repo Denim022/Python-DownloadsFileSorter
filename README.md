@@ -29,7 +29,7 @@ You can modify the EXTENSION_MAP dictionary in the script to include or remove f
 ```
 3. Run the script:
 ```
-   python sort_files.py
+   python sort_downloads.py
 ```
 4. Enter the path to the folder you want to sort when prompted:
 ```
@@ -46,6 +46,6 @@ Open Task Scheduler and create a new task.
  i. Set the Trigger (e.g., daily at a specific time).
  ii. Set the Action to run Python with the script:
 ```
-python path\to\sort_files.py
+python path\to\sort_downloads.py
 ```
 # Enjoy a cleaner and more organized folder!
