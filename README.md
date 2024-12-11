@@ -49,3 +49,5 @@ Open Task Scheduler and create a new task.
 python path\to\sort_downloads.py
 ```
 # Enjoy a cleaner and more organized folder!
+
+-Denim
