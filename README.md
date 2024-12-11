@@ -9,7 +9,7 @@ Customizable extension-to-folder mapping.
 
 # Prerequisites:
 Python Installation:
-Ensure you have Python installed on your system. Download it from python.org.
+Ensure you have Python installed on your system. Download it from python.org and also you need to have vs code.
 
 # Dependencies:
 This script does not require any external libraries. It uses Python’s built-in libraries (os, shutil).
